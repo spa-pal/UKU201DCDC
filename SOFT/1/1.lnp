@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "stm32f10x.o" "stm32_init.o" "main.o" "25lc640.o" "eeprom_map.o" "memo.o" "gran.o" "control.o" "mess.o" "mcp2515.o" "avar_hndl.o" "beep.o" "stm32_rtc.o" "uart1.o" "uart2.o" "modbus.o" "full_can.o" --library_type=microlib --feedback "1.fed" 
+--strict --scatter "1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\1.map" -o "1.axf"
