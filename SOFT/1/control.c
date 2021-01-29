@@ -1172,7 +1172,7 @@ for(i=0;i<NUMIST;i++)
      
 out_U=(short)(temp_SL/temp_cnt);
 
-load_U=1234;
+//out_U=1235;
 
 /*
 temp_SL=(signed long)adc_buff_[5];
@@ -1187,6 +1187,7 @@ temp_SL*=Kubps;
 temp_SL/=500L;
 bps_U=(signed short)temp_SL;
 
+bps_U=adc_buff_[4];
 
 out_I=0;
 
